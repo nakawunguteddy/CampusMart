@@ -2,8 +2,8 @@ export function LoginPage({ onLogin, onSwitchToSignup }: { onLogin: (user: { nam
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     onLogin({
-      name: "John Doe",
-      email: "john.doe@mak.ac.ug"
+      name: "Sarah Nansubuga",
+      email: "sarah.nansubuga@mak.ac.ug"
     });
   };
 

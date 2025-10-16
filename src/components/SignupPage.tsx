@@ -2,8 +2,8 @@ export function SignupPage({ onSignup, onSwitchToLogin }: { onSignup: (user: { n
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     onSignup({
-      name: "John Doe",
-      email: "john.doe@mak.ac.ug"
+      name: "Sarah Nansubuga",
+      email: "sarah.nansubuga@mak.ac.ug"
     });
   };
 
@@ -28,7 +28,7 @@ export function SignupPage({ onSignup, onSwitchToLogin }: { onSignup: (user: { n
               <span className="text-gray-700">Full Name</span>
             </div>
             <div className="border-2 border-gray-600 p-3 bg-gray-50">
-              <span className="text-gray-600">Nansubuga Sarah</span>
+              <span className="text-gray-600">Sarah Nansubuga</span>
             </div>
           </div>
 

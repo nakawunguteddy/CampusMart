@@ -3,7 +3,7 @@ export function ChatPage({ onBack }: { onBack?: () => void }) {
     <div className="p-8 max-w-7xl mx-auto">
       <button onClick={onBack} className="mb-6">
         <div className="border-2 border-gray-400 px-4 py-2 inline-block bg-white">
-          <span className="text-gray-600">Link: ← Back to Product</span>
+          <span className="text-gray-600">← Back to Product</span>
         </div>
       </button>
 
@@ -12,7 +12,7 @@ export function ChatPage({ onBack }: { onBack?: () => void }) {
           {/* Chat List Sidebar */}
           <div className="w-80 border-r-2 border-gray-600 flex flex-col">
             <div className="p-4 border-b-2 border-gray-600 bg-gray-100">
-              <span className="text-gray-800">Heading: Messages</span>
+              <span className="text-gray-800">Messages</span>
             </div>
             <div className="flex-1">
               {['Sarah Chen - MacBook Pro', 'Mike Johnson - Mini Fridge', 'Emily Rodriguez - Washing Machine'].map((chat, i) => (
@@ -26,10 +26,10 @@ export function ChatPage({ onBack }: { onBack?: () => void }) {
                         <span className="text-gray-800">{chat.split(' - ')[0]}</span>
                       </div>
                       <div className="mb-1">
-                        <span className="text-gray-600">Text: Re: {chat.split(' - ')[1]}</span>
+                        <span className="text-gray-600">Re: {chat.split(' - ')[1]}</span>
                       </div>
                       <div>
-                        <span className="text-gray-500">Text: Last message preview...</span>
+                        <span className="text-gray-500">Last message preview...</span>
                       </div>
                     </div>
                   </div>
@@ -49,10 +49,10 @@ export function ChatPage({ onBack }: { onBack?: () => void }) {
                   </div>
                   <div>
                     <div className="mb-1">
-                      <span className="text-gray-800">Text: Sarah Chen</span>
+                      <span className="text-gray-800">Sarah Nansubuga</span>
                     </div>
                     <div>
-                      <span className="text-gray-600">Text: Re: MacBook Pro 13" 2020</span>
+                      <span className="text-gray-600">Re: MacBook Pro 13" 2020</span>
                     </div>
                   </div>
                 </div>
@@ -75,14 +75,14 @@ export function ChatPage({ onBack }: { onBack?: () => void }) {
                 </div>
                 <div className="flex-1">
                   <div className="mb-1">
-                    <span className="text-gray-800">Text: MacBook Pro 13" 2020</span>
+                    <span className="text-gray-800">MacBook Pro 13" 2020</span>
                   </div>
                   <div>
-                    <span className="text-gray-700">Text: UGX 2,400,000</span>
+                    <span className="text-gray-700">UGX 2,400,000</span>
                   </div>
                 </div>
                 <div className="border-2 border-gray-600 px-4 py-2 bg-gray-300">
-                  <span>Button: View Item</span>
+                  <span>View Item</span>
                 </div>
               </div>
             </div>
@@ -92,10 +92,10 @@ export function ChatPage({ onBack }: { onBack?: () => void }) {
               <div className="flex justify-start">
                 <div className="border-2 border-gray-400 p-3 bg-gray-100 max-w-[70%]">
                   <div className="mb-1">
-                    <span className="text-gray-800">Message: Hi! Is this item still available?</span>
+                    <span className="text-gray-800">Hi! Is this item still available?</span>
                   </div>
                   <div>
-                    <span className="text-gray-500">Time: 10:30 AM</span>
+                    <span className="text-gray-500">10:30 AM</span>
                   </div>
                 </div>
               </div>
@@ -103,10 +103,10 @@ export function ChatPage({ onBack }: { onBack?: () => void }) {
               <div className="flex justify-end">
                 <div className="border-2 border-gray-600 p-3 bg-gray-300 max-w-[70%]">
                   <div className="mb-1">
-                    <span className="text-gray-800">Message: Yes, it is! Are you interested?</span>
+                    <span className="text-gray-800">Yes, it is! Are you interested?</span>
                   </div>
                   <div>
-                    <span className="text-gray-600">Time: 10:32 AM</span>
+                    <span className="text-gray-600">10:32 AM</span>
                   </div>
                 </div>
               </div>
@@ -114,10 +114,10 @@ export function ChatPage({ onBack }: { onBack?: () => void }) {
               <div className="flex justify-start">
                 <div className="border-2 border-gray-400 p-3 bg-gray-100 max-w-[70%]">
                   <div className="mb-1">
-                    <span className="text-gray-800">Message: Can we meet at Makerere Main Campus?</span>
+                    <span className="text-gray-800">Can we meet at Makerere Main Campus?</span>
                   </div>
                   <div>
-                    <span className="text-gray-500">Time: 10:35 AM</span>
+                    <span className="text-gray-500">10:35 AM</span>
                   </div>
                 </div>
               </div>
@@ -130,10 +130,10 @@ export function ChatPage({ onBack }: { onBack?: () => void }) {
                   <span className="text-gray-600">📎</span>
                 </div>
                 <div className="flex-1 border-2 border-gray-600 p-3 bg-white">
-                  <span className="text-gray-600">Input: Type your message...</span>
+                  <span className="text-gray-600">Type your message...</span>
                 </div>
                 <div className="border-2 border-gray-600 px-6 py-3 bg-gray-300">
-                  <span>Button: Send</span>
+                  <span>Send</span>
                 </div>
               </div>
             </div>
