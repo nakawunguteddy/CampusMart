@@ -3,7 +3,7 @@ export function ProductDetailsPage({ onBack, onOpenChat }: { onBack?: () => void
     <div className="p-8 max-w-7xl mx-auto">
       <button onClick={onBack} className="mb-6">
         <div className="border-2 border-gray-400 px-4 py-2 inline-block bg-white">
-          <span className="text-gray-600">Link: ← Back to Results</span>
+          <span className="text-gray-600">← Back to Results</span>
         </div>
       </button>
 
